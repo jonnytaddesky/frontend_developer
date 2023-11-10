@@ -1,29 +1,29 @@
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 300;
-  src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2');
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
-  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
-  src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2');
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 900;
-  src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2');
+  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
 }
 
 :root {
@@ -43,7 +43,7 @@
 body {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -156,7 +156,7 @@ header {
       rgba(18, 18, 17, 0.6) 58.46%,
       rgba(18, 18, 17, 0) 90.36%
     ),
-    url('../images/hero-section-background.jpg');
+    url("../images/hero-section-background.jpg");
 }
 
 .hero-title {
@@ -249,7 +249,21 @@ header {
   display: block;
   width: 352px;
   border: 2px solid #cfcfbc;
-  content: '';
+  content: "";
+}
+
+.chefs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.chefs-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+.chef-card {
+  display: flex;
+  gap: 30px;
 }
 
 .chef-photo {
@@ -322,7 +336,6 @@ header {
   background-color: var(--color-primary-dark);
   fill: var(--color-primary-light);
 }
-
 
 /* Contacts section */
 

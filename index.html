@@ -202,7 +202,6 @@
                 Приєднуйся до мережі пекарень
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-              <!-- form -->
               <form name="contact-form" autocomplete="off">
                 <div class="form-field">
                   <label class="form-label visually-hidden" for="user-name">
@@ -214,6 +213,7 @@
                     id="user-name"
                     name="user-name"
                     placeholder="Ім'я"
+                    required
                   />
                 </div>
                 <div class="form-field">
@@ -226,6 +226,7 @@
                     id="user-tel"
                     name="user-tel"
                     placeholder="Телефон"
+                    required
                   />
                 </div>
                 <div class="form-field">
@@ -238,6 +239,7 @@
                     id="user-email"
                     name="user-email"
                     placeholder="Електронна пошта"
+                    required
                   />
                 </div>
                 <button class="form-button button" type="submit">
@@ -344,6 +346,7 @@
               id="user-name"
               name="user-name"
               placeholder="Ім'я"
+              required
             />
           </div>
           <div class="form-field">
@@ -356,6 +359,7 @@
               id="user-tel"
               name="user-tel"
               placeholder="Телефон"
+              required
             />
           </div>
           <div class="form-field">
@@ -368,9 +372,10 @@
               id="user-email"
               name="user-email"
               placeholder="Електронна пошта"
+              required
             />
           </div>
-          <button class="form-button button" type="submit">
+          <button class="form-button button" type="submit" disabled>
             Замовити дзвінок
           </button>
           <p class="form-terms">

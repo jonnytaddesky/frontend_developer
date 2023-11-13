@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap"
       rel="stylesheet"
     /> -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles copy.css" />
   </head>
   <body>
     <header>
@@ -203,53 +203,6 @@
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
               <!-- form -->
-              <form name="contact-form" autocomplete="off">
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-name">
-                    Ім'я
-                  </label>
-                  <input
-                    class="form-input"
-                    type="text"
-                    id="user-name"
-                    name="user-name"
-                    placeholder="Ім'я"
-                  />
-                </div>
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-tel">
-                    Телефон
-                  </label>
-                  <input
-                    class="form-input"
-                    type="tel"
-                    id="user-tel"
-                    name="user-tel"
-                    placeholder="Телефон"
-                  />
-                </div>
-                <div class="form-field">
-                  <label class="form-label visually-hidden" for="user-email">
-                    Електронна пошта
-                  </label>
-                  <input
-                    class="form-input"
-                    type="email"
-                    id="user-email"
-                    name="user-email"
-                    placeholder="Електронна пошта"
-                  />
-                </div>
-                <button class="form-button button" type="submit">
-                  Замовити дзвінок
-                </button>
-                <p class="form-terms">
-                  Натискаючи на кнопку я погоджуюсь з
-                  <a class="form-terms-link" href="#"
-                    >політикою конфіденційності</a
-                  >
-                </p>
-              </form>
             </div>
             <iframe
               class="contact-map"
@@ -333,49 +286,43 @@
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
         <button class="modal-btn-close" type="button">Close</button>
-        <form class="modal-form" name="contact-form" autocomplete="off">
+        <form
+          class="contact-form"
+          name="contact-form"
+          autocomplete="off"
+          novalidate
+        >
           <div class="form-field">
-            <label class="form-label visually-hidden" for="user-name">
-              Ім'я
-            </label>
+            <label class="form-label" for="user-name">Ім'я</label>
             <input
               class="form-input"
               type="text"
               id="user-name"
               name="user-name"
-              placeholder="Ім'я"
             />
           </div>
           <div class="form-field">
-            <label class="form-label visually-hidden" for="user-tel">
-              Телефон
-            </label>
+            <label class="form-label" for="user-tel">Телефон</label>
             <input
               class="form-input"
               type="tel"
               id="user-tel"
               name="user-tel"
-              placeholder="Телефон"
             />
           </div>
           <div class="form-field">
-            <label class="form-label visually-hidden" for="user-email">
-              Електронна пошта
-            </label>
+            <label class="form-label" for="user-email">Електронна пошта</label>
             <input
               class="form-input"
               type="email"
               id="user-email"
               name="user-email"
-              placeholder="Електронна пошта"
             />
           </div>
-          <button class="form-button button" type="submit">
-            Замовити дзвінок
-          </button>
-          <p class="form-terms">
+          <button type="submit">Замовити дзвінок</button>
+          <p>
             Натискаючи на кнопку я погоджуюсь з
-            <a class="form-terms-link" href="#">політикою конфіденційності</a>
+            <a href="#">політикою конфіденційності</a>
           </p>
         </form>
       </div>

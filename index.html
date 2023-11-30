@@ -4,13 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap"
-      rel="stylesheet"
-    /> -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
@@ -24,7 +18,7 @@
               <li>
                 <a class="link" href="#traditions-section">Наші традиції</a>
               </li>
-              <li><a class="link" href="#cookers-section">Шеф-кухарі</a></li>
+              <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
               <li><a class="link" href="#formats-section">Формати</a></li>
               <li><a class="link" href="#contacts-section">Контакти</a></li>
             </ul>
@@ -279,7 +273,7 @@
               <li>
                 <a class="link" href="#traditions-section">Наші традиції</a>
               </li>
-              <li><a class="link" href="#cookers-section">Шеф-кухарі</a></li>
+              <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
               <li><a class="link" href="#formats-section">Формати</a></li>
               <li><a class="link" href="#contacts-section">Контакти</a></li>
             </ul>
@@ -346,6 +340,8 @@
               id="user-name"
               name="user-name"
               placeholder="Ім'я"
+              minlength="2"
+              maxlength="20"
               required
             />
           </div>
@@ -358,6 +354,7 @@
               type="tel"
               id="user-tel"
               name="user-tel"
+              pattern="^\+[0-9]{12}"
               placeholder="Телефон"
               required
             />
@@ -375,7 +372,20 @@
               required
             />
           </div>
-          <button class="form-button button" type="submit" disabled>
+
+          <!-- <div class="checkbox">
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              id="terms-conditions"
+              name="terms-conditions"
+            />
+            <label class="checkbox-label" for="terms-conditions"
+              >Я точно погоджуюсь з політикою конфіденційності</label
+            >
+          </div> -->
+
+          <button class="form-button button" type="submit">
             Замовити дзвінок
           </button>
           <p class="form-terms">
@@ -386,5 +396,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/autoprefixer"></script>
   </body>
 </html>

@@ -1,63 +1,28 @@
-@import "./utils/fonts";
-
-@import "./utils/variables";
-
 @import "./base";
 
+@import "./utils/fonts";
+@import "./utils/mixins";
+@import "./utils/texts";
 @import "./utils/utils";
-
+@import "./utils/variables";
 
 @import "./components/buttons";
-
-/* Link */
-@import "./components/links";
-/* Header */
-
-@import "./components/header";
-
-/* Hero section */
-
-@import "./components/hero-section";
-
-/* Advantages section */
-
-@import "./components/advantage-section";
-
-/* global-section */
-
-@import "./components/global-section";
-
-/* Traditions section */
-
-@import "./components/tradition-section";
-
-/* Chefs section */
-
-@import "./components/chef-section";
-
-/* Formats section */
-
-@import "./components/format-section";
-
-/* Carousel */
-
 @import "./components/carousel";
-
-/* Contacts section */
-
-@import "./components/contact-section";
-
-/* Footer */
-
-@import "./components/footer";
-
-/* Modal window */
-
-@import "./components/modal-window";
-
-/* Form */
-
 @import "./components/form";
+@import "./components/format-cards";
+@import "./components/links";
+
+@import "./layouts/advantage-section";
+@import "./layouts/chef-section";
+@import "./layouts/contact-section";
+@import "./layouts/container";
+@import "./layouts/footer";
+@import "./layouts/format-section";
+@import "./layouts/global-section";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/modal-window";
+@import "./layouts/tradition-section";
 
 /* .checkbox {
   position: relative;

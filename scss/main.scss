@@ -8,8 +8,9 @@
 
 @import "./components/buttons";
 @import "./components/carousel";
-@import "./components/form";
+@import "./components/chef-card";
 @import "./components/format-cards";
+@import "./components/inputs";
 @import "./components/links";
 
 @import "./layouts/advantage-section";
@@ -17,11 +18,12 @@
 @import "./layouts/contact-section";
 @import "./layouts/container";
 @import "./layouts/footer";
+@import "./layouts/form-terms";
 @import "./layouts/format-section";
-@import "./layouts/global-section";
 @import "./layouts/header";
 @import "./layouts/hero-section";
-@import "./layouts/modal-window";
+@import "./layouts/modal";
+@import "./layouts/section";
 @import "./layouts/tradition-section";
 
 /* .checkbox {

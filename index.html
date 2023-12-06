@@ -23,9 +23,19 @@
               <li><a class="link" href="#contacts-section">Контакти</a></li>
             </ul>
           </nav>
-          <button class="button modal-btn-open" type="button">
+          <button class="header__button button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              CLose
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -35,6 +45,12 @@
           <h1 class="hero-section__title">
             <span class="text-brand">Сучасна</span> пекарня
           </h1>
+          <button
+            class="hero-section__button button modal-btn-open"
+            type="button"
+          >
+            Замовити дзвінок
+          </button>
         </div>
       </section>
       <section class="advantages-section">
@@ -51,7 +67,7 @@
           </ul>
         </div>
       </section>
-      <section class="traditions-section section" id="traditions-section">
+      <!-- <section class="traditions-section section" id="traditions-section">
         <div class="container">
           <div class="traditions-section__container">
             <div class="traditions-section__content">
@@ -288,9 +304,9 @@
             ></iframe>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
@@ -353,7 +369,8 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
     <div class="backdrop is-hidden">
       <div class="modal-container"></div>
       <div class="modal">
@@ -429,8 +446,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <!-- <script src="./script.js"></script> -->
-    <!-- <script src="getImg.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/autoprefixer"></script>
   </body>
 </html>

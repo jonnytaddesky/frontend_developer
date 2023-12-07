@@ -1,10 +1,9 @@
-@import "./base";
-
 @import "./utils/fonts";
-@import "./utils/mixins";
+@import "./utils/variables";
+@import "./base";
 @import "./utils/texts";
 @import "./utils/utils";
-@import "./utils/variables";
+@import "./utils/mixins";
 
 @import "./components/buttons";
 @import "./components/carousel";
@@ -13,8 +12,9 @@
 @import "./components/inputs";
 @import "./components/links";
 
+@import "./layouts/section";
 @import "./layouts/advantage-section";
-@import "./layouts/chef-section";
+@import "./layouts/chefs-section";
 @import "./layouts/contact-section";
 @import "./layouts/container";
 @import "./layouts/footer";
@@ -24,5 +24,4 @@
 @import "./layouts/hero-section";
 @import "./layouts/mobile-menu";
 @import "./layouts/modal";
-@import "./layouts/section";
 @import "./layouts/tradition-section";
